@@ -1,10 +1,8 @@
-import Service.ReprodutorMusicalService;
+import Entity.Iphone;
 
 public class Usuario {
-    public static void main(String[] args) {
-        ReprodutorMusicalService reprodutorMusicalService = new ReprodutorMusicalService();
-
-        reprodutorMusicalService.selecionarMusica("FEIN");
-
+    public static void main(String[] args) {        
+        Iphone iphone = new Iphone();
+        iphone.exibirMenu();
     }
 }
