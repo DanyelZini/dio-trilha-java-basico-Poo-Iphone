@@ -1,7 +1,5 @@
 package Entity;
 
-import Service.NavegadorInternetService;
-import Service.ReprodutorMusicalService;
 import java.util.Scanner;
 
 import Menu.AparelhoTelefonicoMenu;
